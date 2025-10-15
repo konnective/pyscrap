@@ -79,7 +79,7 @@ CREATE TABLE `bookings` (
  `check_in` date DEFAULT NULL,
  `check_out` date DEFAULT NULL,
  `guest_details` text DEFAULT NULL,
- `guests_details` text DEFAULT NULL,
+ `guests_details` text DEFAULT NULL, 
  `applied_offer_code` longtext DEFAULT NULL,
  `special_request_code` varchar(255) DEFAULT NULL,
  `pet_charge` decimal(28,2) DEFAULT NULL,
